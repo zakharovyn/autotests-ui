@@ -37,6 +37,24 @@ class TestOperations:
         print(f"User without operations: {user}")
 
 
+# --------------------------------------- Динамические id -----------------------------------------
+
+
+@pytest.mark.parametrize(
+    "phone_number",
+    ["+70000000011", "+70000000022", "+70000000033"],
+    ids=[
+        "User with money on bank account",
+        "User without money on bank account",
+        "User with operations on bank account"
+    ]
+)
+def test_identifiers(phone_number: str):
+    pass
+
+# ===>
+
+
 users = {
     "+70000000011": "User with money on bank account",
     "+70000000022": "User without money on bank account",
