@@ -1,6 +1,6 @@
 from playwright.sync_api import Page, expect
 
-from components.courses.create_course_exercise_form_component import CreateExerciseFormComponent
+from components.courses.create_course_exercise_form_component import CreateCourseExerciseFormComponent
 from components.courses.create_course_exercises_toolbar_view_component import CreateCourseExercisesToolbarViewComponent
 from components.courses.create_course_form_component import CreateCourseFormComponent
 from components.courses.create_course_toolbar_view_component import CreateCourseToolbarViewComponent
@@ -21,7 +21,7 @@ class CreateCoursePage(BasePage):
         self.image_upload_widget = ImageUploadWidgetComponent(page, 'create-course-preview')
         self.create_course_exercise_toolbar = CreateCourseExercisesToolbarViewComponent(page)
         self.exercises_empty_view = EmptyViewComponent(page, 'create-course-exercises')
-        self.create_exercise_form = CreateExerciseFormComponent(page)
+        self.create_exercise_form = CreateCourseExerciseFormComponent(page)
 
     def check_visible_exercises_empty_view(self):
         self.exercises_empty_view.check_visible(
