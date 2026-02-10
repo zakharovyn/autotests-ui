@@ -3,7 +3,7 @@ from playwright.sync_api import Page, Locator, expect
 
 class BaseElement:
 
-    def ___init___(self, page: Page, name: str, locator: str):
+    def __init__(self, page: Page, name: str, locator: str):
         self.page = page
         self.name = name
         self.locator = locator
