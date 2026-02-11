@@ -14,4 +14,3 @@ def test_dashboard_displaying(dashboard_page_with_state: DashboardPage):
     dashboard_page_with_state.activities_chart_view.check_visible(title='Activities')
     dashboard_page_with_state.courses_chart_view.check_visible(title='Courses')
     dashboard_page_with_state.scores_chart_view.check_visible(title='Scores')
-
