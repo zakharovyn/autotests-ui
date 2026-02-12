@@ -3,8 +3,8 @@ import allure
 from allure_commons.types import Severity
 
 from tools.allure.epics import AllureEpic
-from tools.allure.features import AllureFeatures
-from tools.allure.stories import AllureStories
+from tools.allure.features import AllureFeature
+from tools.allure.stories import AllureStory
 from tools.allure.tags import AllureTag
 from pages.authentication.login_page import LoginPage
 from pages.authentication.registration_page import RegistrationPage
@@ -15,8 +15,11 @@ from pages.dashboard.dashboard_page import DashboardPage
 @pytest.mark.authorization
 @allure.tag(AllureTag.REGRESSION, AllureTag.AUTHORIZATION)
 @allure.epic(AllureEpic.LMS)
-@allure.feature(AllureFeatures.AUTHENTICATION)
-@allure.story(AllureStories.AUTHORIZATION)
+@allure.feature(AllureFeature.AUTHENTICATION)
+@allure.story(AllureStory.AUTHORIZATION)
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.AUTHENTICATION)
+@allure.sub_suite(AllureStory.AUTHORIZATION)
 class TestAuthorization:
 
     @pytest.mark.parametrize("email, password", [
