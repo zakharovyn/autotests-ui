@@ -1,28 +1,18 @@
-import allure
 from playwright.sync_api import Page, Playwright
 import pytest
 from _pytest.fixtures import SubRequest
 
 from pages.authentication.registration_page import RegistrationPage
+from tools.playwtight.pages import initialize_playwright_page
 
 
 @pytest.fixture
 def chromium_page(request: SubRequest, playwright: Playwright) -> Page:
-    browser = playwright.chromium.launch(headless=False)
-    context = browser.new_context()
-    context.tracing.start(screenshots=True, snapshots=True, sources=True)
-
-    yield context.new_page()
-
-    trace_path = f'./tracing/{request.node.name}.zip'
-
-    if request.node.rep_call.failed:
-        context.tracing.stop(path=trace_path)
-        allure.attach.file(source=trace_path, name='trace', extension='zip')
-    elif request.node.rep_call.passed:
-        context.tracing.stop()
-
-    browser.close()
+    yield from initialize_playwright_page(
+        playwright=playwright,
+        request=request,
+        test_name=request.node.name,
+    )
 
 
 @pytest.fixture(scope="session")
@@ -46,18 +36,9 @@ def chromium_page_with_state(
         initialize_browser_state,
         playwright: Playwright
 ) -> Page:
-    browser = playwright.chromium.launch(headless=False)
-    context = browser.new_context(storage_state='browser-state.json')
-    context.tracing.start(screenshots=True, snapshots=True, sources=True)
-
-    yield context.new_page()
-
-    trace_path = f'./tracing/{request.node.name}.zip'
-
-    if request.node.rep_call.failed:
-        context.tracing.stop(path=trace_path)
-        allure.attach.file(source=trace_path, name='trace', extension='zip')
-    elif request.node.rep_call.passed:
-        context.tracing.stop()
-
-    browser.close()
+    yield from initialize_playwright_page(
+        playwright=playwright,
+        test_name=request.node.name,
+        request=request,
+        storage_state='browser-state.json'
+    )
