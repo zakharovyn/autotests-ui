@@ -1,5 +1,6 @@
 import re
 
+import allure
 from playwright.sync_api import Page
 
 from components.base_component import BaseComponent
@@ -17,12 +18,14 @@ class CoursesListToolbarViewComponent(BaseComponent):
             page,'Create course button', 'courses-list-toolbar-create-course-button'
         )
 
+    @allure.step('Check visible course list toolbar')
     def check_visible(self):
         self.title.check_visible()
         self.title.check_have_text(text='Courses')
 
         self.create_course_button.check_visible()
 
+    @allure.step('Click create course button')
     def click_create_course_button(self):
         self.create_course_button.click()
         self.check_current_url(re.compile('.*/#/courses/create'))
