@@ -2,6 +2,8 @@ import allure
 from playwright.sync_api import Playwright, Page
 from _pytest.fixtures import SubRequest
 
+from config import settings
+
 
 def initialize_playwright_page(
         playwright: Playwright,
@@ -9,15 +11,15 @@ def initialize_playwright_page(
         request: SubRequest,
         storage_state: str | None = None
 ) -> Page:
-    browser = playwright.chromium.launch(headless=False)
-    # context = browser.new_context(storage_state=storage_state, record_video_dir='./videos')
+    browser = playwright.chromium.launch(headless=settings.headless)
+    # context = browser.new_context(storage_state=storage_state, record_video_dir=settings.videos_dir)
     context = browser.new_context(storage_state=storage_state)
     context.tracing.start(screenshots=True, snapshots=True, sources=True)
     page = context.new_page()
 
     yield page
 
-    trace_path = f'./tracing/{test_name}.zip'
+    trace_path = settings.tracing_dir.joinpath(f'{test_name}.zip')
 
     if request.node.rep_call.failed:
         context.tracing.stop(path=trace_path)

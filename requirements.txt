@@ -2,3 +2,5 @@ playwright
 pytest
 pytest-rerunfailures
 allure-pytest
+pydantic
+pydantic-settings # pip install pydantic-settings 'pydantic[email]'
