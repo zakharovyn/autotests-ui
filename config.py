@@ -22,7 +22,7 @@ class TestData(BaseModel):
 
 
 class Settings(BaseSettings):
-    modal_config = SettingsConfigDict(
+    model_config = SettingsConfigDict(
         env_file=".env",
         env_file_encoding="utf-8",
         env_nested_delimiter="."
@@ -53,6 +53,9 @@ class Settings(BaseSettings):
             browser_state_file=browser_state_file
 
         )
+
+    def get_base_url(self) -> str:
+        return f"{self.app_url}/"
 
 
 settings = Settings.initialize()
