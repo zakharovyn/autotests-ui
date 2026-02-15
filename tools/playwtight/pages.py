@@ -3,6 +3,7 @@ from playwright.sync_api import Playwright, Page
 from _pytest.fixtures import SubRequest
 
 from config import settings, Browser
+from tools.playwtight.mocks import mock_static_resources
 
 
 def initialize_playwright_page(
@@ -19,7 +20,9 @@ def initialize_playwright_page(
         storage_state=storage_state
     )
     context.tracing.start(screenshots=True, snapshots=True, sources=True)
+
     page = context.new_page()
+    mock_static_resources(page)
 
     yield page
 
