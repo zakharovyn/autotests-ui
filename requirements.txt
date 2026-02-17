@@ -1,7 +1,9 @@
-playwright
-pytest
-pytest-xdist
-pytest-rerunfailures
-allure-pytest
-pydantic
-pydantic-settings # pip install pydantic-settings 'pydantic[email]'
+playwright==1.57.0
+pytest==9.0.2
+pytest-playwright==0.7.2
+pytest-xdist==3.8.0
+pytest-rerunfailures==16.1
+allure-pytest==2.15.3
+email-validator==2.3.0
+pydantic==2.12.5
+pydantic-settings==2.12.0
