@@ -1,0 +1,129 @@
+2026-02-19 10:42:31 INFO base_page visit::20 Opening the url "AppRoute.COURSES_CREATE"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-toolbar-title-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that text "Title" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-toolbar-title-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_have_text::49 Checking that text "Title" has text "Create course"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-toolbar-create-course-button" at index "0"
+2026-02-19 10:42:33 INFO button check_disabled::28 Checking that button "Create course button" is disabled
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-preview-image-upload-widget-info-icon" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that icon "Icon" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-preview-image-upload-widget-info-title-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that text "Title" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-preview-image-upload-widget-info-title-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_have_text::49 Checking that text "Title" has text "Tap on "Upload image" button to select file"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-preview-image-upload-widget-info-description-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that text "Description" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-preview-image-upload-widget-info-description-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_have_text::49 Checking that text "Description" has text "Recommended file size 540X300"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-preview-image-upload-widget-upload-button" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that button "Upload button" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-preview-empty-view-icon" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that icon "Icon" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-preview-empty-view-title-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that text "Title" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-preview-empty-view-title-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_have_text::49 Checking that text "Title" has text "No image selected"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-preview-empty-view-description-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that text "Description" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-preview-empty-view-description-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_have_text::49 Checking that text "Description" has text "Preview of selected image will be displayed here"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-form-title-input" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that input "Title" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-form-title-input" at index "0"
+2026-02-19 10:42:33 INFO input check_have_value::32 Checking that input "Title" has a value ""
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-form-estimated-time-input" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that input "Estimated_time" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-form-estimated-time-input" at index "0"
+2026-02-19 10:42:33 INFO input check_have_value::32 Checking that input "Estimated_time" has a value ""
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-form-description-input" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that textarea "Description" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-form-description-input" at index "0"
+2026-02-19 10:42:33 INFO textarea check_have_value::32 Checking that textarea "Description" has a value ""
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-form-max-score-input" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that input "Max score" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-form-max-score-input" at index "0"
+2026-02-19 10:42:33 INFO input check_have_value::32 Checking that input "Max score" has a value "0"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-form-min-score-input" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that input "Min score" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-form-min-score-input" at index "0"
+2026-02-19 10:42:33 INFO input check_have_value::32 Checking that input "Min score" has a value "0"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-exercises-box-toolbar-title-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that text "Title" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-exercises-box-toolbar-title-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_have_text::49 Checking that text "Title" has text "Exercises"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-exercises-box-toolbar-create-exercise-button" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that button "Create exercise button" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-exercises-empty-view-icon" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that icon "Icon" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-exercises-empty-view-title-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that text "Title" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-exercises-empty-view-title-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_have_text::49 Checking that text "Title" has text "There is no exercises"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-exercises-empty-view-description-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that text "Description" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-exercises-empty-view-description-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_have_text::49 Checking that text "Description" has text "Click on "Create exercise" button to create new exercise"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-preview-image-upload-widget-input" at index "0"
+2026-02-19 10:42:33 INFO file_input set_input_files::20 Set file "testdata/files/image.png" to the file input "Upload input"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-preview-image-upload-widget-info-icon" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that icon "Icon" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-preview-image-upload-widget-info-title-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that text "Title" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-preview-image-upload-widget-info-title-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_have_text::49 Checking that text "Title" has text "Tap on "Upload image" button to select file"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-preview-image-upload-widget-info-description-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that text "Description" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-preview-image-upload-widget-info-description-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_have_text::49 Checking that text "Description" has text "Recommended file size 540X300"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-preview-image-upload-widget-upload-button" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that button "Upload button" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-preview-image-upload-widget-remove-button" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that button "Remove button" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-preview-image-upload-widget-preview-image" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that image "Preview image" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-form-title-input" at index "0"
+2026-02-19 10:42:33 INFO input fill::24 Fill input "Title" to value "Playwright"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-form-title-input" at index "0"
+2026-02-19 10:42:33 INFO input check_have_value::32 Checking that input "Title" has a value "Playwright"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-form-estimated-time-input" at index "0"
+2026-02-19 10:42:33 INFO input fill::24 Fill input "Estimated_time" to value "2 weeks"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-form-estimated-time-input" at index "0"
+2026-02-19 10:42:33 INFO input check_have_value::32 Checking that input "Estimated_time" has a value "2 weeks"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-form-description-input" at index "0"
+2026-02-19 10:42:33 INFO textarea fill::24 Fill textarea "Description" to value "Playwright"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-form-description-input" at index "0"
+2026-02-19 10:42:33 INFO textarea check_have_value::32 Checking that textarea "Description" has a value "Playwright"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-form-max-score-input" at index "0"
+2026-02-19 10:42:33 INFO input fill::24 Fill input "Max score" to value "100"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-form-max-score-input" at index "0"
+2026-02-19 10:42:33 INFO input check_have_value::32 Checking that input "Max score" has a value "100"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-form-min-score-input" at index "0"
+2026-02-19 10:42:33 INFO input fill::24 Fill input "Min score" to value "10"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-form-min-score-input" at index "0"
+2026-02-19 10:42:33 INFO input check_have_value::32 Checking that input "Min score" has a value "10"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=create-course-toolbar-create-course-button" at index "0"
+2026-02-19 10:42:33 INFO base_element click::33 Clicking button "Create course button"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=courses-list-toolbar-title-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that text "Title" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=courses-list-toolbar-title-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_have_text::49 Checking that text "Title" has text "Courses"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=courses-list-toolbar-create-course-button" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that button "Create course button" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=course-preview-image" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that image "Preview" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=course-widget-title-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that text "Title" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=course-widget-title-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_have_text::49 Checking that text "Title" has text "Playwright"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=course-max-score-info-row-view-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that text "Max score" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=course-max-score-info-row-view-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_have_text::49 Checking that text "Max score" has text "Max score: 100"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=course-min-score-info-row-view-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that text "Min score" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=course-min-score-info-row-view-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_have_text::49 Checking that text "Min score" has text "Min score: 10"
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=course-estimated-time-info-row-view-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_visible::41 Checking that text "Estimated time" is visible
+2026-02-19 10:42:33 INFO base_element get_locator::25 Getting locator with "data-testid=course-estimated-time-info-row-view-text" at index "0"
+2026-02-19 10:42:33 INFO base_element check_have_text::49 Checking that text "Estimated time" has text "Estimated time: 2 weeks"

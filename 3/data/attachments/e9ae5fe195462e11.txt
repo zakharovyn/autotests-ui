@@ -1,0 +1,61 @@
+2026-02-19 10:42:35 INFO base_page visit::20 Opening the url "AppRoute.DASHBOARD"
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=logout-drawer-list-item-icon" at index "0"
+2026-02-19 10:42:36 INFO base_element check_visible::41 Checking that icon "Icon" is visible
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=logout-drawer-list-item-title-text" at index "0"
+2026-02-19 10:42:36 INFO base_element check_visible::41 Checking that text "Title" is visible
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=logout-drawer-list-item-title-text" at index "0"
+2026-02-19 10:42:36 INFO base_element check_have_text::49 Checking that text "Title" has text "Logout"
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=logout-drawer-list-item-button" at index "0"
+2026-02-19 10:42:36 INFO base_element check_visible::41 Checking that button "Button" is visible
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=courses-drawer-list-item-icon" at index "0"
+2026-02-19 10:42:36 INFO base_element check_visible::41 Checking that icon "Icon" is visible
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=courses-drawer-list-item-title-text" at index "0"
+2026-02-19 10:42:36 INFO base_element check_visible::41 Checking that text "Title" is visible
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=courses-drawer-list-item-title-text" at index "0"
+2026-02-19 10:42:36 INFO base_element check_have_text::49 Checking that text "Title" has text "Courses"
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=courses-drawer-list-item-button" at index "0"
+2026-02-19 10:42:36 INFO base_element check_visible::41 Checking that button "Button" is visible
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=dashboard-drawer-list-item-icon" at index "0"
+2026-02-19 10:42:36 INFO base_element check_visible::41 Checking that icon "Icon" is visible
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=dashboard-drawer-list-item-title-text" at index "0"
+2026-02-19 10:42:36 INFO base_element check_visible::41 Checking that text "Title" is visible
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=dashboard-drawer-list-item-title-text" at index "0"
+2026-02-19 10:42:36 INFO base_element check_have_text::49 Checking that text "Title" has text "Dashboard"
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=dashboard-drawer-list-item-button" at index "0"
+2026-02-19 10:42:36 INFO base_element check_visible::41 Checking that button "Button" is visible
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=navigation-navbar-app-title-text" at index "0"
+2026-02-19 10:42:36 INFO base_element check_visible::41 Checking that text "Application title" is visible
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=navigation-navbar-app-title-text" at index "0"
+2026-02-19 10:42:36 INFO base_element check_have_text::49 Checking that text "Application title" has text "UI Course"
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=navigation-navbar-welcome-title-text" at index "0"
+2026-02-19 10:42:36 INFO base_element check_visible::41 Checking that text "Welcome_title" is visible
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=navigation-navbar-welcome-title-text" at index "0"
+2026-02-19 10:42:36 INFO base_element check_have_text::49 Checking that text "Welcome_title" has text "Welcome, username!"
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=dashboard-toolbar-title-text" at index "0"
+2026-02-19 10:42:36 INFO base_element check_visible::41 Checking that text "Title" is visible
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=dashboard-toolbar-title-text" at index "0"
+2026-02-19 10:42:36 INFO base_element check_have_text::49 Checking that text "Title" has text "Dashboard"
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=students-widget-title-text" at index "0"
+2026-02-19 10:42:36 INFO base_element check_visible::41 Checking that text "Title" is visible
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=students-widget-title-text" at index "0"
+2026-02-19 10:42:36 INFO base_element check_have_text::49 Checking that text "Title" has text "Students"
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=students-bar-chart" at index "0"
+2026-02-19 10:42:36 INFO base_element check_visible::41 Checking that image "Chart" is visible
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=activities-widget-title-text" at index "0"
+2026-02-19 10:42:36 INFO base_element check_visible::41 Checking that text "Title" is visible
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=activities-widget-title-text" at index "0"
+2026-02-19 10:42:36 INFO base_element check_have_text::49 Checking that text "Title" has text "Activities"
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=activities-line-chart" at index "0"
+2026-02-19 10:42:36 INFO base_element check_visible::41 Checking that image "Chart" is visible
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=courses-widget-title-text" at index "0"
+2026-02-19 10:42:36 INFO base_element check_visible::41 Checking that text "Title" is visible
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=courses-widget-title-text" at index "0"
+2026-02-19 10:42:36 INFO base_element check_have_text::49 Checking that text "Title" has text "Courses"
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=courses-pie-chart" at index "0"
+2026-02-19 10:42:36 INFO base_element check_visible::41 Checking that image "Chart" is visible
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=scores-widget-title-text" at index "0"
+2026-02-19 10:42:36 INFO base_element check_visible::41 Checking that text "Title" is visible
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=scores-widget-title-text" at index "0"
+2026-02-19 10:42:36 INFO base_element check_have_text::49 Checking that text "Title" has text "Scores"
+2026-02-19 10:42:36 INFO base_element get_locator::25 Getting locator with "data-testid=scores-scatter-chart" at index "0"
+2026-02-19 10:42:36 INFO base_element check_visible::41 Checking that image "Chart" is visible

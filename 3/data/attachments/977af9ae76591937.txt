@@ -1,0 +1,16 @@
+2026-02-19 10:42:27 INFO base_page visit::20 Opening the url "AppRoute.LOGIN"
+2026-02-19 10:42:28 INFO base_element get_locator::25 Getting locator with "data-testid=login-page-registration-link" at index "0"
+2026-02-19 10:42:28 INFO base_element click::33 Clicking link "Registration"
+2026-02-19 10:42:28 INFO base_page check_current_url::34 Checking that current url matches pattern ".*/#/auth/registration"
+2026-02-19 10:42:28 INFO base_element get_locator::25 Getting locator with "data-testid=registration-form-email-input" at index "0"
+2026-02-19 10:42:28 INFO base_element check_visible::41 Checking that input "Email input" is visible
+2026-02-19 10:42:28 INFO base_element get_locator::25 Getting locator with "data-testid=registration-form-email-input" at index "0"
+2026-02-19 10:42:28 INFO input check_have_value::32 Checking that input "Email input" has a value ""
+2026-02-19 10:42:28 INFO base_element get_locator::25 Getting locator with "data-testid=registration-form-username-input" at index "0"
+2026-02-19 10:42:28 INFO base_element check_visible::41 Checking that input "Username input" is visible
+2026-02-19 10:42:28 INFO base_element get_locator::25 Getting locator with "data-testid=registration-form-username-input" at index "0"
+2026-02-19 10:42:28 INFO input check_have_value::32 Checking that input "Username input" has a value ""
+2026-02-19 10:42:28 INFO base_element get_locator::25 Getting locator with "data-testid=registration-form-password-input" at index "0"
+2026-02-19 10:42:28 INFO base_element check_visible::41 Checking that input "Password input" is visible
+2026-02-19 10:42:28 INFO base_element get_locator::25 Getting locator with "data-testid=registration-form-password-input" at index "0"
+2026-02-19 10:42:28 INFO input check_have_value::32 Checking that input "Password input" has a value ""
